@@ -25,8 +25,7 @@ UTC-SW(config-vlan)#name GiaoVienUTC
 UTC-SW(config-vlan)#vlan 7
 UTC-SW(config-vlan)#name HanhChinhUTC
 ```
-
-![](https://github.com/An-Huy/network-amdinistartor/vlan-trunking/Lab_images/1.png)
+![](https://github.com/An-Huy/network-amdinistartor/blob/main/vlan-trunking/Lab_images/1.png)
 
 b. gán port vào các vlan 3,5,7; chỉnh lại speed và duplex full
 ```
@@ -51,9 +50,8 @@ UTC-SW(config-if-range)#switchport access vlan 7
 UTC-SW(config-if-range)#speed 100
 UTC-SW(config-if-range)#duplex full
 ```
-
-![](https://github.com/An-Huy/network-amdinistartor/vlan-trunking/Lab_images/2.png)
-![](https://github.com/An-Huy/network-amdinistartor/vlan-trunking/Lab_images/3.png)
+![](https://github.com/An-Huy/network-amdinistartor/blob/main/vlan-trunking/Lab_images/2.png)
+![](https://github.com/An-Huy/network-amdinistartor/blob/main/vlan-trunking/Lab_images/3.png)
 
 c. tạo trunking và chỉnh lại speed và duplex full
 ```
@@ -62,8 +60,7 @@ UTC-SW(config-if)#switchport mode trunk
 UTC-SW(config-if)#speed 1000
 UTC-SW(config-if)#duplex full
 ```
-
-![](https://github.com/An-Huy/network-amdinistartor/vlan-trunking/Lab_images/4.png)
+![](https://github.com/An-Huy/network-amdinistartor/blob/main/vlan-trunking/Lab_images/4.png)
 
 ```
 UTC-SW(config-if)#int g0/2
@@ -72,5 +69,4 @@ UTC-SW(config-if)#switchport trunk allowed vlan 5,7
 UTC-SW(config-if)#speed 1000
 UTC-SW(config-if)#duplex full
 ```
-
-![](https://github.com/An-Huy/network-amdinistartor/vlan-trunking/Lab_images/5.png)
+![](https://github.com/An-Huy/network-amdinistartor/blob/main/vlan-trunking/Lab_images/5.png)
