@@ -50,7 +50,16 @@ UTC-SW(config-if-range)#switchport access vlan 7
 UTC-SW(config-if-range)#speed 100
 UTC-SW(config-if-range)#duplex full
 ```
+
+# Kết quả khi show vlan và int status
+```
+UTC-SW#show vlan
+```
 ![](https://github.com/An-Huy/network-amdinistartor/blob/main/vlan-trunking/Lab_images/2.png)
+
+```
+UTC-SW#show int status 
+```
 ![](https://github.com/An-Huy/network-amdinistartor/blob/main/vlan-trunking/Lab_images/3.png)
 
 c. tạo trunking và chỉnh lại speed và duplex full
